@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+body:not(.movie-list) {
+  background-color: rgb(147, 147, 213);
+}
+
+.movie {background-color:darkolivegreen;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  color: black;
+  }
+
+  .movie-img {
+    width: 50%;
+    height: 500px
+  }
+
+  @media (max-width: 1000px) {
+    .movie {background-color:darkolivegreen;
+      padding: 20px 20px 20px 20px;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: 30px;
+      margin-right: 30px;
+      margin-left: 0px;
+      color: black;
+      }
+    .movie-img {
+      width: 50%;
+      height: 40%
+    }
+  }
+
+  .stars{
+    margin-bottom: 50px;
+    display: inline;
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(255, 0, 13);
+  }
